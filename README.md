@@ -1,34 +1,29 @@
-# <img src="https://raw.githubusercontent.com/IUTInfoAix-M2105/Syllabus/master/assets/logo.png" alt="class logo" class="logo"/> Développement d'application avec IHM
+# <img src="https://raw.githubusercontent.com/CraftLR/workshop-git/main/src/main/resources/assets/logo.png" alt="class logo" class="logo"/> 
 
-## IUT d’Aix-Marseille – Département Informatique Aix-en-Provence
+## La Rochelle Software Craftsmenship
+* **Auteurs:** 
+    * [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
+* **Besoin d'aide ?**
+    * Consulter et/ou créer des [issues](https://github.com/CraftLR/workshop-git/issues).
+    * [Email](mailto:sebastien.nedjar@univ-amu.fr) pour toutes questions autres.
 
-- **Ressource :** [R2.02](https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/5/Annexe_17_INFO_BUT_annee_1_1411355.pdf)
-- **Responsables :**
-  - [Sébastien Nedjar](mailto:sebastien.nedjar@univ-amu.fr)
-- **Enseignants :**
-  - [Cyril Pain-Barre](mailto:cyril.pain-barre@univ-amu.fr)
-  - [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
-- **Besoin d'aide ?**
-  - Consulter et/ou créer des [issues](https://github.com/IUTInfoAix-R203/tp1-git/issues).
-  - [Email](mailto:sebastien.nedjar@univ-amu.fr) pour une question d'ordre privée, ou pour convenir d'un rendez-vous physique.
+## Aperçu du workshop et objectifs d'apprentissage
 
-## Aperçu du TP et objectifs d'apprentissage
+Ce workshop explore deux mécanismes clefs de JavaFX : Les propriétés, les bindings.
 
-Ce TP explore deux mécanismes clefs de JavaFX : Les propriétés, les bindings.
+## workshop : Propriétés et Bindings
 
-## TP : Propriétés et Bindings
+JavaFX regroupe un ensemble d'API permettant le développement d'applications graphiques modernes. Suite à la modularisation de la JVM, la [documentation](https://openjfx.io/javadoc/21/) de JavaFX est séparée de celle du langage [Java](https://docs.oracle.com/en/java/javase/21/docs/api/index.html).
 
-JavaFX 17 regroupe un ensemble d'API permettant le développement d'applications graphiques modernes. Suite à la modularisation de la JVM, la [documentation](https://openjfx.io/javadoc/17/) de JavaFX est séparée de celle du langage [Java](https://docs.oracle.com/en/java/javase/17/docs/api/index.html).
-
-### Création de votre fork du TP
+### Création de votre fork du workshop
 
 La première chose que vous allez faire est de créer un fork d'un dépôt. Pour ce faire, rendez-vous sur le lien suivant :
 
-<https://classroom.github.com/a/5aojxGHC>
+<https://classroom.github.com/a/gr9hYAvn>
 
-Comme pour les précédents TP, GitHub va vous créer un dépôt contenant un fork du dépôt 'IUTInfoAix-R202/tp2' et s'appelant 'IUTInfoAix-R202-2022/tp2-votreUsername'. Vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail.
+Comme pour les précédents workshop, GitHub va vous créer un dépôt contenant un fork du dépôt 'CraftLR/workshop-JavaFX-bindings' et s'appelant 'CraftLR/workshop-JavaFX-bindings-votreUsername'. Vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail.
 
-Une fois votre dépôt créé, il vous suffit de l'importer dans IntelliJ pour commencer à travailler.
+Une fois votre dépôt créé, il vous suffit de l'importer dans votre IDE pour commencer à travailler.
 
 ### Exercice 1
 
@@ -177,7 +172,7 @@ Un jeu d'opérations est disponible aussi bien avec la classe `Bindings` qu'avec
 
 - `when(cond).then(val1).otherwise(val2)`
 
-- et beaucoup d'autres que l'on peut découvrir en parcourant la JavaDoc de la classe [`Bindings`](https://openjfx.io/javadoc/17/javafx.base/javafx/beans/binding/Bindings.html).
+- et beaucoup d'autres que l'on peut découvrir en parcourant la JavaDoc de la classe [`Bindings`](https://openjfx.io/javadoc/21/javafx.base/javafx/beans/binding/Bindings.html).
 
 Cet exercice illustre l'utilisation de multiples binding de haut niveau afin de mettre à jour automatiquement la valeur de l'aire d'un triangle à partir des coordonnées de ses 3 sommets.
 Allez dans le paquetage `exercice3` et ouvrez la classe `TriangleArea`. Implémentez sa méthode `createBinding()` en respectant les consignes suivantes :
