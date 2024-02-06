@@ -125,7 +125,7 @@
                 <configuration>
                     <jlinkImageName>app</jlinkImageName>
                     <launcher>launcher</launcher>
-                    <mainClass>tp.intro.javafx/dev.craftlr.App</mainClass>
+                    <mainClass>tp.proprietes/dev.craftlr.App</mainClass>
                 </configuration>
             </plugin>
 
